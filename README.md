@@ -1,27 +1,22 @@
-Project Summary: IPL Match Booking and Payment System
+IPL Match Booking and Payment System
 Overview
 This project is a web-based application designed to facilitate the booking of IPL match tickets and process payments seamlessly. It combines user-friendly interfaces for selecting teams, choosing seats, and entering payment details, all within a single form. The application leverages Bootstrap for responsive design and styling, ensuring a consistent and attractive user experience across devices.
 
 Features
-User Information Collection:
-
+User Information Collection
 Personal Details: Users can enter their first name, last name, and email address.
 Validation: Form fields are equipped with validation to ensure data integrity and completeness.
-Team Selection:
-
+Team Selection
 Dropdown Menus: Two dropdowns allow users to select their preferred IPL teams from a list of 10 teams.
 Color-Coded Options: Each team option is color-coded to match its branding, enhancing visual recognition.
-Seat Selection:
-
+Seat Selection
 Stadium Stands: Users can choose seats from four different stands (A, B, C, D), each offering 50 seats.
 Radio Buttons: Seats are represented as radio buttons, allowing users to select only one seat per stand.
-Payment Processing:
-
+Payment Processing
 Payment Card Interface: A visually appealing card interface is provided for entering payment details.
 Card Details: Users can input their card number, cardholder name, expiry date, and CVV.
 Secure Input: The CVV field is masked for security, and all fields are required to ensure complete data entry.
-Form Submission:
-
+Form Submission
 Confirmation Button: A "Confirm Payment" button allows users to submit their booking and payment information.
 Terms Agreement: Users must agree to terms and conditions before submitting the form.
 Technologies Used

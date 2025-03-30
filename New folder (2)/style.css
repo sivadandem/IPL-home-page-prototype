@@ -1,0 +1,212 @@
+.logo {
+  height: 50px;
+
+}
+
+.navbar {
+  background-color: black;
+}
+
+.list1 {
+  font-style: italic
+}
+
+.slides {
+  height: 50vh;
+
+}
+
+
+.body2 {
+  height: 40vh;
+  margin-top: 30px;
+  background-image: url('https://didbxtymavoia.cloudfront.net/cms/series/1654082336_IPL-Cover-CMN-1920x800.jpg');
+  background-size: contain;
+}
+
+.body3 {
+  padding: 20px
+}
+
+.card-img-top {
+
+  padding: 50px
+}
+
+.body3 .row .col {
+  padding: 20px;
+
+}
+
+.texting {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.table {
+  color: white;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+
+.body4,
+.body5 {
+  padding: 40px;
+  background-color: black;
+  height: 100vh;
+}
+
+
+.body5 {
+  padding: 40px;
+  background-color: black;
+  height: auto;
+}
+
+label {
+  color: white;
+}
+
+.form-check-label {
+  color: black;
+  margin-left: 3px;
+}
+
+.creditimg {
+  height: 400px;
+  width: 200px;
+}
+
+
+.visa-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 300px;
+  height: 180px;
+  background-image: radial-gradient(circle 897px at 9% 80.3%,
+      rgba(55, 60, 245, 1) 0%,
+      rgba(234, 161, 15, 0.9) 100.2%);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  gap: 15px;
+}
+
+.logoContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 18px;
+}
+
+.svgLogo {
+  height: 40px;
+  width: auto;
+}
+
+.inputstyle::placeholder {
+  color: #ffffff;
+}
+
+.inputstyle {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  caret-color: red;
+  font-size: 13px;
+  height: 25px;
+  letter-spacing: 1.5px;
+}
+
+.number-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardNumber {
+  width: 100%;
+  height: 25px;
+}
+
+.name-date-cvv-container {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.name-wrapper {
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.expiry-wrapper,
+.cvv-wrapper {
+  width: 30%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.cvv-wrapper {
+  width: 10%;
+}
+
+#expiry,
+#cvv {
+  width: 100%;
+}
+
+.input-label {
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #e2e2e2;
+  width: 100%;
+}
+
+.footing {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-links, .footer-social {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li, .footer-social li {
+  margin-bottom: 10px;
+}
+.footer-links a, .footer-social a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+.footer-links a i, .footer-social a i {
+  margin-right: 10px; /* Add margin to the right of icons */
+}

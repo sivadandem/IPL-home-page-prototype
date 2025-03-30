@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="nav-section" id="home">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#home"><img class="logo"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3773cb-5629-4145-b044-4ef6f9090376/delijof-512ea6c7-7021-492d-a994-fcfa82513964.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMzc3M2NiLTU2MjktNDE0NS1iMDQ0LTRlZjZmOTA5MDM3NlwvZGVsaWpvZi01MTJlYTZjNy03MDIxLTQ5MmQtYTk5NC1mY2ZhODI1MTM5NjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3DG2r-zD8LQgRHr7hfaPNwHEeBJWxOAIQ8d9AlKMbSY"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="ml-5 list1 navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#grand-launch">Grand Launch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teams">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#table">Table</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#form">Book</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Carousel Section -->
+    <div class="body1" id="carousel">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="slides d-block w-100"
+                            data-src="holder.js/900x300?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide"
+                            alt="First slide [900x300]"
+                            src="https://i.pinimg.com/originals/c2/4c/52/c24c527e774299d908304d6a6f311bb9.png"
+                            data-holder-rendered="true">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="slides d-block w-100"
+                            data-src="holder.js/900x300?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+                            alt="Second slide [900x300]"
+                            src="https://didbxtymavoia.cloudfront.net/cms/series/1654082336_IPL-Cover-CMN-1920x800.jpg"
+                            data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>22 MARCH 2025 - 25 MAY 2025</h3>
+                            <p>JIO HOTSTAR</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grand Launch Section -->
+    <div class="body2" id="grand-launch">
+        <div class="card text-center">
+            <div class="bg-dark text-white card-header">
+                Grand Launch
+            </div>
+            <div class="card-body ">
+                <h5 class="card-title">EDEN GARDENS</h5>
+                <h5 class="card-title text-danger">22 March 2025</h5>
+                <a href="#" class="btn btn-outline-primary">See More</a>
+            </div> 
+            <div class="bg-dark text-white card-footer text-muted">
+                <marquee><span class="" style="color:white">"witness the grand opening ceremony of IPL 2025, where cricket meets celebration!" @3:30 PM IST</span></marquee>
+            </div>
+        </div>
+    </div>
+
+    <!-- Teams Section -->
+    <div class="body3 bg-secondary texting" id="teams">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card orange-army" style="background-color:#FC9309">
+                    <img src="https://media.sportstiger.com/media/srh-ipl-2025-full-squad-1732555563885-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Orange Army</h5>
+                        <p class="card-text">Sunrisers Hyderabad (SRH) is called the "Orange Army" because of their
+                            signature orange jersey and aggressive play. The team is known for its strong bowling lineup
+                            and a loyal fanbase that passionately supports them every season.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card whistle-podu bg-warning" style="background-color:#FCE002">
+                    <img src="https://media.sportstiger.com/media/csk-ipl-2025-full-squad-1732555693735-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Whistle Podu</h5>
+                        <p class="card-text">Chennai Super Kings (CSK) fans chant "Whistle Podu," meaning "blow the
+                            whistle" in Tamil. It signifies their excitement, enthusiasm, and unwavering support for the
+                            team, led by their legendary captain MS Dhoni.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ee-sala-cup-namde bg-danger" style="background-color:#931A03">
+                    <img src="https://media.sportstiger.com/media/rcb-ipl-2025-full-squad-1732555400629-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ee Sala Cup Namde</h5>
+                        <p class="card-text">Royal Challengers Bangalore (RCB) fans chant "Ee Sala Cup Namde," meaning
+                            "This time, the cup is ours" in Kannada. Despite never winning the IPL, RCB boasts a
+                            dedicated and passionate fan following.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card paltan bg-primary" style="background-color:#024BFF">
+                    <img src="https://media.sportstiger.com/media/mi-ipl-2025-full-squad-1732555729710-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Paltan</h5>
+                        <p class="card-text">Mumbai Indians (MI) fans are known as the "MI Paltan," meaning "MI Army."
+                            With multiple IPL trophies, MI has built a reputation as one of the most dominant and
+                            successful franchises in IPL history.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card korbo-lorbo-jeetbo" style="background-color:#290349">
+                    <img src="https://media.sportstiger.com/media/kkr-ipl-2025-full-squad-1732555473119-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Korbo Lorbo Jeetbo</h5>
+                        <p class="card-text">Kolkata Knight Riders (KKR) fans chant "Korbo Lorbo Jeetbo," meaning "We
+                            will do, we will fight, we will win." This slogan represents the team's never-give-up
+                            attitude and hunger for victory.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card capitals-army" style="background-color:#004BFF">
+                    <img src="https://media.sportstiger.com/media/dc-ipl-2025-full-squad-1732555601799-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Capitals Army</h5>
+                        <p class="card-text">Delhi Capitals (DC) fans call themselves the "Capitals Army," reflecting
+                            their loyalty to the team. Over the years, DC has evolved into a formidable side, regularly
+                            competing at the highest level.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card halla-bol" style="background-color:#FC0181">
+                    <img src="https://media.sportstiger.com/media/rr-ipl-2025-full-squad-1732555658160-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Halla Bol</h5>
+                        <p class="card-text">Rajasthan Royals (RR) fans use the chant "Halla Bol," meaning "Make Some
+                            Noise" in Hindi. This phrase reflects their fearless approach and strong determination to
+                            fight till the very end.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card sher-squad" style="background-color:#F33108">
+                    <img src="https://media.sportstiger.com/media/pbks-ipl-2025-full-squad-1732555520501-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sher Squad</h5>
+                        <p class="card-text">Punjab Kings (PBKS) are called the "Sher Squad," meaning "Lion Squad." The
+                            name signifies their aggressive and fearless playing style, aiming to roar louder with every
+                            match they play.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card titans-army" style="background-color:#001139">
+                    <img src="https://media.sportstiger.com/media/gt-ipl-2025-full-squad-1732555700796-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Titans Army</h5>
+                        <p class="card-text">Gujarat Titans (GT) fans rally behind the name "Titans Army," symbolizing
+                            their team's resilience, strength, and determination to conquer every challenge that comes
+                            their way.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card super-giants" style="background-color:#01298E">
+                    <img src="https://media.sportstiger.com/media/lsg-ipl-2025-full-squad-1732555710742-original.webp"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Giants</h5>
+                        <p class="card-text">Lucknow Super Giants (LSG) fans proudly support their team as the "Super
+                            Giants," reflecting their squad's power-packed performances and unyielding spirit on the
+                            field.</p>
+                        <button class="btn bg-light">See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table Section -->
+    <div class="body4" id="table">
+        <table class="table">
+            <thead>
+                <tr class="bg-dark">
+                    <th>Teams</th>
+                    <th>Total Years Played</th>
+                    <th>Trophies Won</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color:#FC9309">
+                    <td>Sunrisers Hyderabad (SRH)</td>
+                    <td>12</td> <!-- SRH started in 2013 -->
+                    <td>1</td> <!-- Won in 2016 -->
+                </tr>
+                <tr style="background-color:#FCE002">
+                    <td>Chennai Super Kings (CSK)</td>
+                    <td>15</td> <!-- CSK started in 2008, missed 2016 and 2017 -->
+                    <td>5</td> <!-- Won in 2010, 2011, 2018, 2021, 2023 -->
+                </tr>
+                <tr style="background-color:#931A03">
+                    <td>Royal Challengers Bangalore (RCB)</td>
+                    <td>17</td> <!-- RCB started in 2008 -->
+                    <td>0</td> <!-- No trophies won -->
+                </tr>
+                <tr style="background-color:#024BFF">
+                    <td>Mumbai Indians (MI)</td>
+                    <td>17</td> <!-- MI started in 2008 -->
+                    <td>5</td> <!-- Won in 2013, 2015, 2017, 2019, 2020 -->
+                </tr>
+                <tr style="background-color:#290349">
+                    <td>Kolkata Knight Riders (KKR)</td>
+                    <td>17</td> <!-- KKR started in 2008 -->
+                    <td>2</td> <!-- Won in 2012, 2014 -->
+                </tr>
+                <tr style="background-color:#004BFF">
+                    <td>Delhi Capitals (DC)</td>
+                    <td>17</td> <!-- DC started in 2008 -->
+                    <td>0</td> <!-- No trophies won -->
+                </tr>
+                <tr style="background-color:#FC0181">
+                    <td>Rajasthan Royals (RR)</td>
+                    <td>15</td> <!-- RR started in 2008, missed 2016 and 2017 -->
+                    <td>1</td> <!-- Won in 2008 -->
+                </tr>
+                <tr style="background-color:#F33108">
+                    <td>Punjab Kings (PBKS)</td>
+                    <td>17</td> <!-- PBKS started in 2008 -->
+                    <td>0</td> <!-- No trophies won -->
+                </tr>
+                <tr style="background-color:#001139">
+                    <td>Gujarat Titans (GT)</td>
+                    <td>2</td> <!-- GT started in 2022 -->
+                    <td>1</td> <!-- Won in 2022 -->
+                </tr>
+                <tr style="background-color:#01298E">
+                    <td>Lucknow Super Giants (LSG)</td>
+                    <td>2</td> <!-- LSG started in 2022 -->
+                    <td>0</td> <!-- No trophies won -->
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Form Section -->
+    <div class="container b5 mt-5" id="form">
+        <div class="body5">
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationDefault01" value="Siva" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" value="Dandem" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefaultUsername" class="form-label">Email</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" placeholder="sivadandem7@gmail.com" class="form-control" id="validationDefaultUsername"
+                            aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <label for="team1" class="form-label">Select Team 1</label>
+                    <select class="form-select" id="team1" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option style="background-color:#FC9309;">Sunrisers Hyderabad (SRH)</option>
+                        <option style="background-color:#FCE002;">Chennai Super Kings (CSK)</option>
+                        <option style="background-color:#931A03;">Royal Challengers Bangalore (RCB)</option>
+                        <option style="background-color:#024BFF;">Mumbai Indians (MI)</option>
+                        <option style="background-color:#290349;">Kolkata Knight Riders (KKR)</option>
+                        <option style="background-color:#004BFF;">Delhi Capitals (DC)</option>
+                        <option style="background-color:#FC0181;">Rajasthan Royals (RR)</option>
+                        <option style="background-color:#F33108;">Punjab Kings (PBKS)</option>
+                        <option style="background-color:#001139;">Gujarat Titans (GT)</option>
+                        <option style="background-color:#01298E;">Lucknow Super Giants (LSG)</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <label for="team2" class="form-label">Select Team 2</label>
+                    <select class="form-select" id="team2" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option style="background-color:#FC9309;">Sunrisers Hyderabad (SRH)</option>
+                        <option style="background-color:#FCE002;">Chennai Super Kings (CSK)</option>
+                        <option style="background-color:#931A03;">Royal Challengers Bangalore (RCB)</option>
+                        <option style="background-color:#024BFF;">Mumbai Indians (MI)</option>
+                        <option style="background-color:#290349;">Kolkata Knight Riders (KKR)</option>
+                        <option style="background-color:#004BFF;">Delhi Capitals (DC)</option>
+                        <option style="background-color:#FC0181;">Rajasthan Royals (RR)</option>
+                        <option style="background-color:#F33108;">Punjab Kings (PBKS)</option>
+                        <option style="background-color:#001139;">Gujarat Titans (GT)</option>
+                        <option style="background-color:#01298E;">Lucknow Super Giants (LSG)</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label text-white" for="invalidCheck2">
+                            Agree to terms and conditions
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">A Stand - Select Your Seat</h5>
+                            <div class="d-flex flex-wrap">
+                                <script>
+                                    for (let i = 1; i <= 50; i++) {
+                                        document.write(`
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="seatA" id="seatA${i}" value="${i}" required>
+                                                <label class="form-check-label" for="seatA${i}">${i}</label>
+                                            </div>
+                                        `);
+                                    }
+                                </script>
+                            </div>
+                            <h5 class="card-title">B Stand - Select Your Seat</h5>
+                            <div class="d-flex flex-wrap">
+                                <script>
+                                    for (let i = 1; i <= 50; i++) {
+                                        document.write(`
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="seatB" id="seatB${i}" value="${i}" required>
+                                                <label class="form-check-label" for="seatB${i}">${i}</label>
+                                            </div>
+                                        `);
+                                    }
+                                </script>
+                            </div>
+                            <h5 class="card-title">C Stand - Select Your Seat</h5>
+                            <div class="d-flex flex-wrap">
+                                <script>
+                                    for (let i = 1; i <= 50; i++) {
+                                        document.write(`
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="seatC" id="seatC${i}" value="${i}" required>
+                                                <label class="form-check-label" for="seatC${i}">${i}</label>
+                                            </div>
+                                        `);
+                                    }
+                                </script>
+                            </div>
+                            <h5 class="card-title">D Stand - Select Your Seat</h5>
+                            <div class="d-flex flex-wrap">
+                                <script>
+                                    for (let i = 1; i <= 50; i++) {
+                                        document.write(`
+                                            <div class="form-check me-3">
+                                                <input class="form-check-input" type="radio" name="seatD" id="seatD${i}" value="${i}" required>
+                                                <label class="form-check-label" for="seatD${i}">${i}</label>
+                                            </div>
+                                        `);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="visa-card w-100 mt-5">
+                        <div class="logoContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="23"
+                                viewBox="0 0 48 48" class="svgLogo">
+                                <path fill="#ff9800" d="M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z"></path>
+                                <path fill="#d50000" d="M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z"></path>
+                                <path fill="#ff3d00"
+                                    d="M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="number-container">
+                            <label class="input-label" for="cardNumber">CARD NUMBER</label>
+                            <input class="inputstyle" id="cardNumber" placeholder="079933917470"
+                                name="cardNumber" type="text" required />
+                        </div>
+
+                        <div class="name-date-cvv-container">
+                            <div class="name-wrapper">
+                                <label class="input-label" for="holderName">CARD HOLDER</label>
+                                <input class="inputstyle" id="holderName" placeholder="Siva Dandem" type="text" required />
+                            </div>
+
+                            <div class="expiry-wrapper">
+                                <label class="input-label" for="expiry">VALID THRU</label>
+                                <input class="inputstyle" id="expiry" placeholder="4/2025" type="text" required />
+                            </div>
+                            <div class="cvv-wrapper">
+                                <label class="input-label" for="cvv">CVV</label>
+                                <input class="inputstyle" placeholder="007" maxlength="3" id="cvv" type="password"
+                                    required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container d-flex flex-row justify-content-between">
+                        <div class="col-12 mt-5">
+                            <div class="col-12 text-center mt-5">
+                                <button class="btn btn-outline-success" type="submit">Confirm Payment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footing mt-5" id="footer">
+        <div class="container-fluid">
+            <div class="footer-about">
+                <h4>TATA IPL 2025</h4>
+                <p>India's Biggest Festival</p>
+            </div>
+            <ul class="footer-links">
+                <h4>Quick Links</h4>
+                <li><a href="#teams"><i class="fas fa-trophy"></i> Teams</a></li>
+                <li><a href="#carousel"><i class="fas fa-calendar-alt"></i> Schedule</a></li>
+                <li><a href="#table"><i class="fas fa-chart-line"></i> Standings</a></li>
+                <li><a href="#footer"><i class="fas fa-info-circle"></i> About IPL</a></li>
+            </ul>
+            <ul class="footer-social">
+                <h4>Follow IPL</h4>
+                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
